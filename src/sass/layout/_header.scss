@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    padding-left: 100px;
+
+    &-logo {
+        width: 81px;
+        height: 51px;
+        margin-right: 443px;
+    }
+
+
+    & NavLink {
+                
+        &:link,
+        &:visited {
+            color: $color-primary-light;
+        }
+
+        &:active,
+        &:hover {
+            color: $color-primary-dark;
+        }
+    }
+
+
+    &-nav {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -505);
+
+        &__link  h6{
+            margin: 0 30px;
+            color: $color-primary-dark;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Open Sans';
+            line-height: 25px;
+
+            &:active,
+            &:visited,
+            &:hover {
+                color: $color-primary;
+                text-decoration: none;
+            }
+
+        }
+    }
+}

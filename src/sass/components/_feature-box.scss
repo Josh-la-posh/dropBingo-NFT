@@ -1,0 +1,26 @@
+.feature-box {
+    height: 235px;
+    border-radius: 20px;
+    padding: 48px 32px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.11);
+
+    & h4 {
+        font-size: 32px;
+        line-height: 38px;
+        color: $color-grey-110;
+        font-style: normal;
+        font-weight: $strong-weight;
+    }
+
+    &__1 {
+        width: 383px;
+    }
+
+    &__2 {
+        width: 370px;
+    }
+
+    &__3 {
+        width: 334px;
+    }
+}

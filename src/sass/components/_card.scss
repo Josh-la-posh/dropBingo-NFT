@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+
+
+    &-box {
+        width: 250px;
+        height: 312px;
+        padding: 24px 23px 9px 24px;
+        border-radius: 16px;
+        box-shadow: 0px 2px 15px rgba(33, 33, 33, 0.11);
+        background: #fff;
+
+        & h6 {
+            font-size: 18px;
+            font-weight: 700;
+            color: $color-grey-100;
+            font-family: 'Open sans';
+            margin: 40px 0 2px 0;
+        }
+
+      
+        &__icon {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            color: $color-primary;
+            border: 3px solid $color-primary;
+
+        }
+
+        &__text {
+            width: 203px;
+            height: 120px;
+            line-height: 22.65px;
+            font-size: 14px;
+            color: $color-grey-50;
+            font-weight: $small-weight;
+            text-align: center;
+        }
+
+    }
+
+    &__why {
+        margin-top: 104px;
+    }
+}

@@ -1,0 +1,23 @@
+.form {
+
+    &-sub {
+        width: 910px;
+        height: 90px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+
+        &__input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;height: 100%;
+            padding-left: 33px;
+            border: none;
+        }
+
+        & ::placeholder {
+            color: $color-grey-20;
+        }
+    }
+}

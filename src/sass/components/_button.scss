@@ -1,0 +1,38 @@
+.btn {
+    border-radius: 10px;
+    
+    &-1 {
+        width: 242px;
+        height: 71px;
+        padding: 23px 62px;
+    }
+
+    &-2 {
+        width: 222px;
+        height: 70px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px 15px;
+        padding: 23px 62px;
+    }
+
+    &-primary {
+        background-color: $color-primary;
+        color: #fff;
+        margin-right: 24px;
+    }
+
+    &-secondary {
+        background-color: #fff;
+        color: $color-primary;
+        border: 1px solid $color-primary;
+    }
+
+    &-social-icon {
+        margin-right: 22.4px;
+        margin-top: 10.65px;
+        width: 29px;
+        height: 29px;
+    }
+}
