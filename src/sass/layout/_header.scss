@@ -1,50 +1,50 @@
 .header {
-    position: relative;
-    padding-left: 100px;
+    padding: 28px 0 10px 85px;
+    height: 119px;
+
+    &-content{
+        height: 51px;
+        display: flex;
+        align-items: center;
+    }
 
     &-logo {
         width: 81px;
         height: 51px;
-        margin-right: 443px;
+        margin-top: 0;
+        padding: 0;
+        margin-right: 428px;
     }
-
-
-    & NavLink {
-                
-        &:link,
-        &:visited {
-            color: $color-primary-light;
-        }
-
-        &:active,
-        &:hover {
-            color: $color-primary-dark;
-        }
-    }
-
 
     &-nav {
-        float: none;
-        position: absolute;
-        top: 50%;
-        left: 45%;
-        transform: translate(-50%, -505);
+        // float: none;
+        // position: absolute;
+        // top: 50%;
+        // left: 40%;
+        // transform: translate(-50%, -505);
+        height: 51px;
 
-        &__link  h6{
-            margin: 0 30px;
-            color: $color-primary-dark;
-            font-size: 18px;
-            font-weight: 700;
-            font-family: 'Open Sans';
-            line-height: 25px;
+        &__link {
 
-            &:active,
-            &:visited,
-            &:hover {
-                color: $color-primary;
-                text-decoration: none;
+            text-decoration: none;
+
+            & h6 {
+                margin-right: 30px;
+                color: $color-primary-dark;
+                font-size: 18px;
+                font-weight: 700;
+                font-family: 'Open Sans';
+                line-height: 25px;
             }
-
         }
+    }
+}
+
+#collapse {
+    position: relative;
+    display: inline-block;
+
+    & .header-nav {
+        display: flex;
     }
 }

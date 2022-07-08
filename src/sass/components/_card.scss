@@ -1,7 +1,8 @@
 .card {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 69px;
+
+    &-section {
+        margin-top: 69px;
+    }
 
 
     &-box {

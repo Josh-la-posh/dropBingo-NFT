@@ -44,7 +44,7 @@ class Footer extends Component {
                                         <div className='footer-link'>
                                             <h5 className='footer__subheader'>Tools</h5>
                                             <Link className="footer-link__link" to='/'>Airdrop</Link>
-                                            <Link className="footer-link__link" to='/'>Pricing</Link>
+                                            <Link className="footer-link__link" to='/pricing'>Pricing</Link>
                                             <Link className="footer-link__link" to='/'>Terms</Link>
                                             <Link className="footer-link__link" to='/'>Privacy</Link>
                                         </div>
@@ -53,7 +53,7 @@ class Footer extends Component {
                                         <div className='footer-link'>
                                             <h5 className='footer__subheader'>Dropbingo</h5>
                                             <Link className="footer-link__link" to='/'>About</Link>
-                                            <Link className="footer-link__link" to='/'>Docs</Link>
+                                            <Link className="footer-link__link" to='/doc'>Docs</Link>
                                             <Link className="footer-link__link" to='/'>Blog</Link>
                                             <Link className="footer-link__link" to='/'>Community</Link>
                                         </div>

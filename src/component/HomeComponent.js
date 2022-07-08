@@ -9,20 +9,20 @@ class Home extends Component {
             <main>
                 <section className='section-about'>
                     <div className='row section-about__content'>
-                        <div className='col-6 col-md-6 col-sm-6'>
+                        <div className='col-6 col-md-6 col-sm-12 col-xs-12'>
                             <div className='section-about__left'>
-                                <h1 className='heading-primary'><strong>The Easiest Way to Airdrop NFT</strong></h1>
+                                <h1 className='heading-primary'>The Easiest Way to Airdrop NFT</h1>
                                 <p className='paragraph'>Discover how our user can Airdrop NFT to over 3000 wallet in seconds. <br />
                                     We put the power in your hands by giving you the tools to make things easier for you.
                                 </p>
                                 <div className='heading-primary__btn'>
-                                    <Link to='/'><button className='btn btn-1 btn-primary'>Start Airdrop</button></Link>
-                                    <Link to='/'><button className='btn btn-1 btn-secondary'>Learn More</button></Link>
+                                    <Link to='/'><button className='btn btn-1 btn-primary'><h6>Start Airdrop</h6></button></Link>
+                                    <Link to='/'><button className='btn btn-1 btn-secondary'><h6>Learn More</h6></button></Link>
                                 </div>
                             </div>
                         </div>
 
-                        <div className='col-6 col-md-6 col-sm-6'>
+                        <div className='col-6 col-md-6 col-sm-12 col-xs-12'>
                             <div className='section-about__right u-flex-column-between'>
                                 <h3>Select token on airdrop</h3>
                                 <form className='right-box'>
@@ -47,29 +47,29 @@ class Home extends Component {
                     <div>
                         <h3 className='heading-secondary'>Airdrop to your community members in 4 clicks</h3>
                     </div>
-                    <div className='row card'>
-                        <div className='col-3'>
+                    <div className='row card-section'>
+                        <div className='col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='card-box u-flex-column-between'>
                                 <div className='card-box__icon u-flex'><h2><strong>1</strong></h2></div>
                                 <h6>select NFT</h6>
                                 <div className='card-box__text'><small><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur</p></small></div>
                             </div>
                         </div>
-                        <div className='col-3'>
+                        <div className='col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='card-box u-flex-column-between'>
                                 <div className='card-box__icon u-flex'><h2><strong>2</strong></h2></div>
                                 <h6>select NFT</h6>
                                 <div className='card-box__text'><small><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur</p></small></div>
                             </div>
                         </div>
-                        <div className='col-3'>
+                        <div className='col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='card-box u-flex-column-between'>
                                 <div className='card-box__icon u-flex'><h2><strong>3</strong></h2></div>
                                 <h6>select NFT</h6>
                                 <div className='card-box__text'><small><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur</p></small></div>
                             </div>
                         </div>
-                        <div className='col-3'>
+                        <div className='col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='card-box u-flex-column-between'>
                                 <div className='card-box__icon u-flex'><h2><strong>4</strong></h2></div>
                                 <h6>select NFT</h6>
@@ -83,21 +83,21 @@ class Home extends Component {
                     <h2 className='section-start__grey u-center'>Ready to Airdrop?</h2>
                     <h2 className='section-start__purple u-center'><strong>Start your Airdrop Instantly</strong></h2>
                     <div className='heading-primary__btn section-start__btn'>
-                                <Link to='/'><button className='btn btn-1 btn-primary'>Start Airdrop</button></Link>
-                                <Link to='/'><button className='btn btn-1 btn-secondary'>Learn More</button></Link>
+                                    <Link to='/'><button className='btn btn-1 btn-primary'><h6>Start Airdrop</h6></button></Link>
+                                    <Link to='/'><button className='btn btn-1 btn-secondary'><h6>Learn More</h6></button></Link>
                             </div>
                 </section>
 
                 <section className='section-why'>
                     <div><h3 className='heading-secondary'>WHY CHOOSE US?</h3></div>
-                    <div className='row card card__why'>
-                        <div className='col-4'>
+                    <div className='row card__why'>
+                        <div className="col-4">
                             <div className='feature-box feature-box__1 u-flex'>
                                 <div className='feature-box__icon'></div>
-                                <h4>No coding required</h4>
+                                <h4>No Coding Required</h4>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className="col-4">
                             <div className='feature-box feature-box__2 u-flex'>
                                 <div className='feature-box__icon'></div>
                                 <h4>Secure Transaction</h4>

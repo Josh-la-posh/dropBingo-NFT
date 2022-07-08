@@ -20,4 +20,21 @@
             color: $color-grey-20;
         }
     }
+
+    &-wallet {
+        width: 1004px;
+        height: 80px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 80px;
+
+        color: #000;
+
+        & h6 {
+            color: $color-primary-dark;
+            font-weight: $weight-700;
+            font-size: $font-18;
+            line-height: 22px;
+        }
+    }
 }

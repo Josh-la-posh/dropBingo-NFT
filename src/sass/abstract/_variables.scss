@@ -4,6 +4,7 @@ $color-primary-light: #F9408E;
 $color-primary-dark: #2C0750;
 $color-primary-border: #D6B1FA;
 $violet10: #E7D0Fc;
+$violet100: #6F11C9;
 
 $color-secondary-light: #ffb900;
 $color-text-dark: #4B4B4B;
@@ -25,11 +26,26 @@ $color-black: #000;
 // WEIGHT
 
 $strong-weight: 900;
+$weight-800: 800;
+$weight-700: 700;
+$weight-600: 600;
 $small-weight: 400;
 
 
 // FONT
 $default-font-size: 1.6rem;
+$font-40: 40px;
+$font-56: 56px;
+$font-32: 32px;
+$font-18: 18px;
+$font-24: 24px;
+$font-14: 14px;
+
+
+// FONT FAMILY
+
+$default-family : Aileron;
+$sans-family: 'Open Sans';
 
 
 // GRID
@@ -37,3 +53,11 @@ $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
+
+// Border
+$default-border: 1px solid $color-primary;
+
+
+// BOX SHADOW
+
+$default-shadow: 0px 4px 15px rgba(0 ,0 ,0 , .06);

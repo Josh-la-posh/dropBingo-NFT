@@ -8,14 +8,14 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar expand='md' dark>
-                    <div>
-                        <div className='header'>
-                            <NavbarBrand className='mr-auto' href='/'>
+                <Navbar dark>
+                    <div className='header'>
+                        <div className='header-content'>
+                            <NavbarBrand href='/'>
                                 <img className='header-logo' src='./asset/images/logo.png' alt='Logo'/>
                             </NavbarBrand>
-                            <Collapse navbar>
-                                <Nav navbar className='list-unstyled header-nav'>
+                            <Collapse navbar id='collapse'>
+                                <Nav className='list-unstyled header-nav'>
                                     <NavItem>
                                         <NavLink to='/home' className='header-nav__link'><h6><strong>Home</strong></h6></NavLink>
                                     </NavItem>

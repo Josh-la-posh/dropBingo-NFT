@@ -1,16 +1,14 @@
 .section {
     
     &-about {
-        margin: 187px 140px 263px 141px;
+        margin: 121px 140px 263px 141px;
 
         &__content {
-            height: 585px;
         }
 
         &__left {
-            margin-right: 123px;
-            width: 508px;
-            margin-right: 71px;
+            // width: 508px;
+            // margin-right: 71px;
             padding-top: 103px;
         }
 
@@ -80,6 +78,7 @@
                 line-height: 29px;
                 font-weight: 700;
                 margin-bottom: 4px;
+                margin-top: 32px;
             }
 
             &__text {
@@ -96,10 +95,10 @@
 .heading {
 
     &-primary {
-        font-size: 56px;
+        font-size: 52px;
         line-height: 67.2px;
         color: $color-primary-dark;
-        width: 508px;
+        // width: 508px;
         font-weight: 900;
         margin-bottom: 26px;
 
