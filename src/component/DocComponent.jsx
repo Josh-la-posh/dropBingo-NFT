@@ -1,10 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-class Documentation extends Component {
-    state = {  } 
-    render() { 
+
+function RenderSteps ({steps}) {
+    return (
+        steps.map((step) => {
+            return (
+                <div key={step.id}>
+                    <p className='text-600-24'>{step.step}</p>
+                    <p className='text-400-14'>{step.quote}</p>
+                </div>
+            )
+        })
+    )
+}
+
+const Documentation = (props) => {
+
         return (
             <div>
                 <section className="doc">
@@ -30,8 +43,9 @@ class Documentation extends Component {
                     </div>   
 
                     <div className='doc-steps'>
-                        <p className="doc-step__process">Yoooo</p>
-                        <p className="text-400-16">Y0000</p>
+                        {/* <p className="doc-step__process">Yoooo</p>
+                        <p className="text-400-16">Y0000</p> */}
+                        <RenderSteps steps={props.steps}/>
                     </div>   
                 </section>
 
@@ -45,7 +59,7 @@ class Documentation extends Component {
                 </section>
             </div>
         );
-    }
+    
 }
  
 export default Documentation;

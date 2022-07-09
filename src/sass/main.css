@@ -198,6 +198,15 @@ body {
   text-align: center;
 }
 
+.text-600-24 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  font-family: "Open Sans";
+  color: #2C0750;
+  margin-top: 50px;
+}
+
 .btn-1 {
   height: 71px;
   border-radius: 10px;
@@ -711,6 +720,10 @@ body {
 
 .doc-step__heading ol {
   margin-bottom: 97px;
+}
+
+.doc-step__heading-text {
+  height: 98px;
 }
 
 .doc-step__process {

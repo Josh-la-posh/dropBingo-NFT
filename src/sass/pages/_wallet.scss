@@ -1,0 +1,124 @@
+.wallet {
+
+    &-connect {
+
+        &__heading {
+
+            &-primary {
+                color: $color-primary;
+                margin-bottom: 79px;
+            }
+        }
+
+        &__body {
+            width: 636px;
+            height: 358px;
+            padding: 32px 0 45px;
+
+            position: relative;
+
+            &-heading {
+
+            }
+        }
+
+        &__btn {
+            background-color: $color-primary;
+            padding: 9px 40px;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            font-weight: $weight-600;
+            line-height: 25.89px;
+
+        }
+    }
+}
+
+.network {
+    width: 323px;
+    padding: 0;
+    margin-bottom: 16px;
+
+    &-content {
+        height: 42px;
+        // width: 323px;
+        border-radius: 6px;
+        padding: 8px 16px;
+        box-sizing: border-box;
+
+        &__details {
+
+            & img {
+                margin-right: 8px;
+                height: 24px;
+                font-weight: 24px;
+                border-radius: 21.6px;
+            }
+
+            & span {
+            }
+        }
+
+        &__eth {
+            background-color: $color-primary;
+            color: $color-white;
+        }
+
+        &__polygon {
+
+            & div img {
+                background-color: $color-polygon;
+            }
+        }
+
+        &__bnb {
+            background-color: $violet10;
+
+            & > div img {
+                background-color: $color-bnb;
+                
+            }
+        }
+    }
+
+    &-connect {
+
+        & span {
+            color: inherit;
+        
+        }
+
+        & img {
+            margin-left: 6px;
+            height: 9px;
+            width: 12.25px;
+            color: #fff;
+        }
+    }
+}
+
+.modal {
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+    // transform: translate(-50%, -50%);
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+
+    &-header h6 {
+        font-weight: $weight-700;
+        font-size: $font-18;
+        line-height: 24.5px;
+        color: #414141;
+    }
+}

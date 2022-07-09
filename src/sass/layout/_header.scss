@@ -48,3 +48,66 @@
         display: flex;
     }
 }
+
+
+// FOR THE WALLET CONNECT PAGE
+
+.wallet {
+
+    &-header {
+        padding: 24px 120px 11px;
+
+        &__logo {
+            height: 56px;
+            width: 89px;
+        }
+    }
+
+    &-account {
+
+        &__type {
+            // width: 134px;
+            height: 56px;
+            border-radius: 38px;
+            box-shadow: 0px 1px 20px $rgba-33;
+            padding: 8px 16px 8px 8px;
+
+        }
+
+        &__icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 36px;
+            // background: linear-gradient(180deg, #8A92B2 0%, #62688F 45.31%, #454A75 100% );
+            margin-right: 4px;
+        }
+
+        &__name {
+        }
+    }
+
+    &-details {
+        // width: 221px;
+        height: 56px;
+        box-shadow: 0px 1px 20px $rgba-33;
+        padding: 8px 16px 8px 8px;
+        border-radius: 38px;
+        margin-left: 8px;
+
+        & img {
+            height: 34px;
+            width: 34px;
+            background-color: $color-primary;
+            border-radius: 50px;
+            margin: 0 8px 0 11px;
+        }
+
+        &__amount {
+
+        }
+
+        &__address {
+
+        }
+    }
+}

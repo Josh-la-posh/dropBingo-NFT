@@ -90,3 +90,47 @@
     margin-top: 50px;
     text-align: center;
 }
+
+.text-600-24 {
+    font-size: $font-24;
+    font-weight: $weight-600;
+    line-height: 28.8px;
+    font-family: $sans-family;
+    color: $color-primary-dark;
+    margin-top: 50px;
+}
+
+.text-700-24 {
+    font-size: $font-24;
+    font-weight: $weight-700;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.text-700-16 {
+    font-size: $default-font-size;
+    font-weight: $weight-700;
+    line-height: 25.89;
+    text-align: center;
+}
+
+.text-700-14 {
+    font-size: $font-14;
+    font-weight: $weight-700;
+    line-height: 22.65px;
+    color: $wallet-color;
+}
+
+// WALLET BOX DESIGN
+
+.wallet-container {
+    box-shadow: $wallet-shadow;
+    border: 2px solid $color-primary-border;
+    border-radius: 8px;
+    background-color: $color-white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
